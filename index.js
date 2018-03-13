@@ -23,8 +23,8 @@ function makeInt(n,b){
   b=10;
   return parseInt(n,b);
 }
-function preserveDecimal(){
- return parseFloat(2.222)
+function preserveDecimal(n){
+ return parseFloat(n,2.222)
   
 }
 function preserveDecimal(n){
