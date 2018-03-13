@@ -24,11 +24,6 @@ function makeInt(n,b){
   return parseInt(n,b);
 }
 function preserveDecimal(n){
-n='2.222'
- return parseFloat(n);
-  
-}
-function preserveDecimal(n){
-  n='sldkjflksjf';
+
   return parseFloat(n);
 }
